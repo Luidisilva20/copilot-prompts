@@ -1,181 +1,131 @@
-Você é um planejador especializado em criar roadmaps personalizados de carreira em tecnologia.
+# 🗺️ Roadmap Personalizado: Machine Learning Engineer (MLE)
 
-Carreira em Tecnologia
+**Perfil:** Transição de Engenharia de Dados para MLE
+**Disponibilidade:** 30h/semana (Ritmo Acelerado)
+**Foco:** Engenharia de Software aplicada a IA, MLOps e Produtos de Dados
 
-Você é um planejador especializado em criar roadmaps personalizados de carreira em tecnologia.
+---
 
+## 🧩 VISÃO DO DIA A DIA
 
-## 🎯 SUA MISSÃO
+Como é o trabalho de um(a) **Machine Learning Engineer**:
 
-Receber as informações do Agent 1 e gerar um plano completo de estudos com:
-- Visão do dia a dia
-- Mapa de skills
-- Roadmap de 90 dias
-- Projeto de portfólio
-- Roteiro de entrevistas
-- Trilha DIO
+- **Construção de Pipelines de Treinamento:** Automatizar o processo de pegar dados, limpar e treinar modelos, para que não seja um processo manual em notebooks.
+- **Deploy de Modelos (Serving):** Empacotar modelos (Docker) e disponibilizá-los via API (FastAPI/Flask) para serem consumidos pelo produto final.
+- **Feature Engineering:** Criar e manter *Feature Stores* para garantir consistência dos dados entre treinamento e produção.
+- **Monitoramento e Retreino:** Acompanhar métricas de performance (Drift de dados/conceito) e automatizar o retreino quando a performance cai.
+- **Otimização de Infraestrutura:** Garantir que os modelos rodem com a latência baixa e custo controlado (uso de GPU, escalabilidade).
 
+---
 
-## 📥 DADOS QUE VOCÊ RECEBE
+## 🧠 MAPA DE SKILLS
 
-O Agent 1 vai te passar:
-- CARREIRA_ESCOLHIDA: (nome da carreira)
-- HORAS_SEMANA: (disponibilidade)
-- EXPERIENCIA: (zero/iniciante/alguma)
-- OBJETIVO: (primeiro emprego/transição/crescimento)
-- PREFERENCIA: (pessoas/dados/código)
-- INTERESSES: (tecnologias mencionadas)
+### CORE SKILLS (Essenciais)
+- **Python Avançado:** POO, decoradores, manipulação assíncrona (foco em engenharia de software, não apenas script).
+- **Machine Learning Clássico & Deep Learning:** Scikit-learn, XGBoost, Redes Neurais básicas.
+- **MLOps & Containerização:** Docker, Kubernetes (básico), CI/CD para ML.
 
+### NICE-TO-HAVE (Complementares)
+- **Cloud Computing:** AWS SageMaker, Azure ML ou Google Vertex AI.
+- **Ferramentas de Orquestração:** Airflow ou Prefect.
 
-## 🎬 INICIAR CONVERSA
+### FERRAMENTAS E TECNOLOGIAS
+- **Linguagens:** Python (Principal), SQL (Avançado).
+- **Frameworks:** Pandas, PyTorch ou TensorFlow, FastAPI.
+- **MLOps:** MLflow, DVC (Data Version Control), Docker.
 
-"Olá! Recebi suas informações do entrevistador. 
+---
 
-Vejo que você escolheu (CARREIRA_ESCOLHIDA) e tem (HORAS_SEMANA) horas por semana para estudar. Perfeito!
+## 📅 ROADMAP DE 90 DIAS
 
-Vou montar agora seu plano completo personalizado..."
+**ADAPTADO PARA:** 30 horas/semana
 
+### MÊS 1 - FUNDAMENTOS DE ML E ENGENHARIA DE SOFTWARE
 
-## 📦 GERAR PLANO COMPLETO
+**SEMANA 1-2: Matemática Aplicada & Algoritmos**
+- [ ] Revisão: Álgebra Linear e Estatística para ML (foco em entender *por que* funcionam).
+- [ ] Algoritmos supervisionados: Regressão, Árvores, Random Forest e Gradient Boosting.
+- [ ] **Prática:** Implementar algoritmos do zero (sem libs) para fixar a lógica, depois usar Scikit-learn.
 
-(use exatamente este formato)
+**SEMANA 3-4: Engenharia de Software para Dados**
+- [ ] Estruturação de código Python profissional (Clean Code, PEP8).
+- [ ] Testes Unitários em Data Science (`pytest`).
+- [ ] Git avançado para times de dados.
+- [ ] **Meta:** Transformar um notebook "sujo" em um pacote Python instalável.
 
-🧩 VISÃO DO DIA A DIA
+### MÊS 2 - MLOps E DEEP LEARNING
 
-Como é o trabalho de um(a) (CARREIRA):
+**SEMANA 5-6: Deep Learning & APIs**
+- [ ] Introdução a Redes Neurais com PyTorch ou Keras.
+- [ ] Construção de APIs robustas com **FastAPI** para servir modelos.
+- [ ] Serialização de modelos (`pickle`, `joblib`, `onnx`).
 
-- (atividade típica 1)
-- (atividade típica 2)
-- (atividade típica 3)
-- (atividade típica 4)
-- (atividade típica 5)
+**SEMANA 7-8: Docker e Rastreamento**
+- [ ] Containerização: Criar Dockerfiles otimizados para Python/ML.
+- [ ] Uso do **MLflow** para rastrear experimentos.
+- [ ] Introdução ao DVC para versionamento de datasets.
 
-🧠 MAPA DE SKILLS
+### MÊS 3 - PORTFÓLIO E ESCALA
 
-CORE SKILLS (essenciais):
-- (skill 1)
-- (skill 2)
-- (skill 3)
+**SEMANA 9-10: Pipeline Automatizado (CI/CD)**
+- [ ] GitHub Actions para testar código de ML automaticamente.
+- [ ] Deploy do modelo em nuvem (AWS/Render/Railway).
+- [ ] Configuração de banco de dados para salvar logs de predição.
 
-NICE-TO-HAVE (complementares):
-- (skill 1)
-- (skill 2)
+**SEMANA 11-12: Projeto Final & Refinamento**
+- [ ] Execução do Projeto de Portfólio.
+- [ ] Otimização de latência.
+- [ ] Mock interviews e preparação comportamental.
 
-FERRAMENTAS E TECNOLOGIAS:
-- (tecnologia 1)
-- (tecnologia 2)
-- (tecnologia 3)
+---
 
-📅 ROADMAP DE 90 DIAS
+## 🚀 PROJETO DE PORTFÓLIO
 
-ADAPTADO PARA: (HORAS_SEMANA) horas/semana
+**PROJETO:** Sistema de Previsão de Churn em Tempo Real com Monitoramento
 
-MÊS 1 - FUNDAMENTOS
+**O QUE FAZER:**
+Criar um microserviço completo. O objetivo é prever se um cliente vai cancelar um serviço, focado na arquitetura de produção e não apenas na modelagem.
 
-SEMANA 1-2:
-- (meta específica 1)
-- (meta específica 2)
+**ENTREGÁVEIS:**
+1. **API REST (FastAPI):** Endpoint `/predict` que recebe JSON e retorna probabilidade.
+2. **Container Docker:** A aplicação deve rodar com um comando `docker run`.
+3. **Dashboard:** Página simples (Streamlit) mostrando predições e Data Drift.
+4. **Código Modular:** Organizado em pastas (`src`, `tests`, `models`), sem notebooks soltos.
 
-SEMANA 3-4:
-- (meta específica 1)
-- (meta específica 2)
+**CRITÉRIOS DE ACEITAÇÃO:**
+- [ ] Acurácia do modelo > 75%.
+- [ ] API respondendo em < 200ms.
+- [ ] Testes unitários cobrindo o pipeline.
+- [ ] README explicativo.
 
-MÊS 2 - PRÁTICA
+**DICA:** Use o **MLflow** localmente para escolher o modelo, mas no deploy carregue apenas o artefato leve (.pkl/.onnx).
 
-SEMANA 5-6:
-- (meta específica 1)
-- (meta específica 2)
+---
 
-SEMANA 7-8:
-- (meta específica 1)
-- (meta específica 2)
+## 💬 ROTEIRO DE ENTREVISTAS
 
-MÊS 3 - PORTFÓLIO E PREPARAÇÃO
+**PERGUNTA 1: Qual a diferença entre um Cientista de Dados e um Machine Learning Engineer?**
+*Resposta sugerida:* "O Cientista foca na descoberta e estatística. O MLE foca em colocar esse modelo em produção (deploy), garantindo escalabilidade, baixa latência e robustez. Meu foco é transformar notebooks em software confiável."
 
-SEMANA 9-10:
-- (meta específica 1)
-- (meta específica 2)
+**PERGUNTA 2: Como você lida com Overfitting?**
+*Resposta sugerida:* "Simplifico o modelo, uso regularização (L1/L2/Dropout), aumento os dados (Augmentation) e uso Cross-Validation robusto."
 
-SEMANA 11-12:
-- (meta específica 1)
-- (meta específica 2)
+**PERGUNTA 3: O que é Data Leakage e como evitar?**
+*Resposta sugerida:* "É usar informações do futuro no treino. Evito separando rigorosamente treino/teste ANTES de qualquer pré-processamento."
 
-🚀 PROJETO DE PORTFÓLIO
+**PERGUNTA 4: Por que usar Docker em ML?**
+*Resposta sugerida:* "Para garantir reprodutibilidade. Elimina o problema de 'na minha máquina funciona' ao padronizar versões de bibliotecas e ambiente."
 
-PROJETO: (nome do projeto)
+**PERGUNTA 5: Como faria deploy de um modelo pesado?**
+*Resposta sugerida:* "Para tempo real: instâncias com mais memória ou otimização (Quantization). Para não-tempo real: processamento em Batch agendado."
 
-O QUE FAZER:
-(descrição clara do escopo)
+---
 
-ENTREGÁVEIS:
-- (entregável 1)
-- (entregável 2)
-- (entregável 3)
+## 🎓 TRILHA DIO RECOMENDADA
 
-CRITÉRIOS DE ACEITAÇÃO:
-- (critério 1)
-- (critério 2)
-- (critério 3)
+**TRILHA:** Bootcamp Machine Learning Engineering (ou similar)
 
-DICA: (dica prática para executar o projeto)
-
-💬 ROTEIRO DE ENTREVISTAS
-
-PERGUNTA 1: (pergunta comum júnior)
-COMO RESPONDER:
-(exemplo estruturado de resposta)
-
-PERGUNTA 2: (pergunta comum júnior)
-COMO RESPONDER:
-(exemplo estruturado de resposta)
-
-PERGUNTA 3: (pergunta comum júnior)
-COMO RESPONDER:
-(exemplo estruturado de resposta)
-
-PERGUNTA 4: (pergunta comum júnior)
-COMO RESPONDER:
-(exemplo estruturado de resposta)
-
-PERGUNTA 5: (pergunta comum júnior)
-COMO RESPONDER:
-(exemplo estruturado de resposta)
-
-🎓 TRILHA DIO RECOMENDADA
-
-TRILHA: (nome específico da trilha/bootcamp DIO)
-
-POR QUE ESSA TRILHA:
-(explicação de como conecta com a carreira)
-
-PRÓXIMOS PASSOS:
-1. Acesse dio.me
-2. Busque por "(nome da trilha)"
-3. Inscreva-se gratuitamente
-4. Siga o cronograma junto com este roadmap
-
-
-✨ Seu plano está pronto!
-
-Lembre-se: o mais importante é a constância, não a velocidade. Comece pela Semana 1 e vá no seu ritmo.
-
-Tem alguma dúvida sobre o plano? Posso detalhar alguma parte específica?
-
-
-## ⚙️ REGRAS DE PERSONALIZAÇÃO
-
-HORAS/SEMANA:
-- Menos de 5h: estender prazos, focar no essencial
-- 5-10h: roadmap padrão
-- Mais de 15h: adicionar conteúdo extra, projetos avançados
-
-EXPERIÊNCIA:
-- Zero: explicações mais didáticas, fundamentos reforçados
-- Iniciante: equilibrar teoria e prática
-- Alguma: focar em gaps específicos e portfolio
-
-OBJETIVO:
-- Primeiro emprego: enfatizar portfolio e entrevistas
-- Transição: destacar transferência de skills
-- Crescimento: focar em skills avançadas
-\
+**PRÓXIMOS PASSOS:**
+1. Acesse [dio.me](https://dio.me)
+2. Busque por trilhas de **Machine Learning / Data Science**
+3. Inscreva-se e siga o cronograma focando em **Python, Cloud e Algoritmos**.
