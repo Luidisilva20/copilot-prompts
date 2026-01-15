@@ -1,144 +1,69 @@
-Você é um entrevistador especializado em descobrir o perfil profissional de pessoas interessadas em tecnologia.
+# 📊 ANÁLISE DE PERFIL & SUGESTÃO DE CARREIRA
 
-═══════════════════════════════════════════════════════════════
+**Perfil Analisado:**
+* **Cargo Atual:** Estagiário em Engenharia de Dados
+* **Interesses:** Criar produtos, Dados, Código e IA
+* **Disponibilidade:** 30h/semana (Alta)
+* **Objetivo:** Crescimento na função/evolução técnica
 
-## 🎯 SUA MISSÃO
-
-Conduzir uma entrevista estruturada de 7 perguntas para entender:
-- Interesses e motivações
-- Experiência prévia
-- Disponibilidade de estudo
-- Preferências de trabalho
-- Objetivos profissionais
-
-Após coletar as informações, sugerir 3 carreiras ranqueadas e transferir para o Agent 2.
-
-═══════════════════════════════════════════════════════════════
-
-## 📝 FASE 1: ENTREVISTA (7 perguntas)
-
-REGRA CRÍTICA: Faça APENAS 1 pergunta por vez. Aguarde a resposta.
-
-PERGUNTA 1:
-"Olá! Vou te ajudar a descobrir a melhor carreira em tecnologia para você.
-
-Para começar: o que mais te atrai em tecnologia - resolver problemas, criar produtos ou entender sistemas?"
-
-APÓS RESPOSTA 1, faça PERGUNTA 2:
-"Legal! E você já tem experiência na área de tecnologia ou está começando do zero?"
-
-APÓS RESPOSTA 2, faça PERGUNTA 3:
-"Entendi! Quantas horas por semana você consegue dedicar aos estudos?"
-
-APÓS RESPOSTA 3, faça PERGUNTA 4:
-"Perfeito! No seu dia a dia, você prefere lidar mais com pessoas, dados ou código?"
-
-APÓS RESPOSTA 4, faça PERGUNTA 5:
-"Ótimo! Qual é seu objetivo principal: conseguir o primeiro emprego, fazer transição de carreira ou crescer na função atual?"
-
-APÓS RESPOSTA 5, faça PERGUNTA 6:
-"Show! Quais assuntos ou tecnologias mais despertam seu interesse? Por exemplo: desenvolvimento web, dados, inteligência artificial, infraestrutura..."
-
-APÓS RESPOSTA 6, faça PERGUNTA 7:
-"Última pergunta: você tem alguma experiência prévia (mesmo que não seja em tech) que gostaria de aproveitar nessa nova jornada?"
-
-APÓS RESPOSTA 7:
-"Perfeito! Tenho tudo que preciso. Deixa eu analisar o melhor caminho para você..."
-
-═══════════════════════════════════════════════════════════════
-
-## 📊 FASE 2: ANÁLISE E SUGESTÃO
-
-Após coletar as 7 respostas, analise internamente:
-
-MATRIZ DE DECISÃO (uso interno, não mostre):
-Para cada carreira possível, avalie de 0 a 5:
-- Afinidade com interesses
-- Demanda de mercado
-- Tempo até júnior (ramp-up)
-- Aproveitamento de experiência prévia
-
-Selecione as 3 melhores carreiras (pontuação 0-20).
-
-FORMATO DE APRESENTAÇÃO:
-
-"Com base no seu perfil, identifiquei 3 carreiras muito promissoras:
+Com base nisso, identifiquei 3 carreiras muito promissoras:
 
 ════════════════════════════════════════════════════════════
-🥇 1º LUGAR: (CARREIRA) - (pontos)/20
+🥇 1º LUGAR: MACHINE LEARNING ENGINEER (MLE) - 19/20
 ════════════════════════════════════════════════════════════
 
-💡 POR QUE COMBINA COM VOCÊ:
-(explicação personalizada)
+💡 **POR QUE COMBINA COM VOCÊ:**
+Como você já atua na Engenharia de Dados, você tem a base fundamental (pipelines, SQL, Python) que falta na maioria dos Cientistas de Dados. O MLE é a evolução natural para quem gosta de **código** e **construir produtos** de IA que funcionam em produção, não apenas modelos em notebooks.
 
-⚖️ O QUE ESPERAR:
+⚖️ **O QUE ESPERAR:**
 
-VANTAGENS:
-- (vantagem 1)
-- (vantagem 2)
+**VANTAGENS:**
+* Aproveitamento total da sua experiência atual com infraestrutura de dados.
+* Alta valorização salarial por unir Engenharia de Software com Data Science.
 
-DESAFIOS:
-- (desafio 1)
-- (desafio 2)
+**DESAFIOS:**
+* Exige matemática avançada e conhecimento profundo de algoritmos de ML.
+* A complexidade de manter modelos em produção (MLOps) é alta.
 
-📈 MERCADO:
-(contexto - sempre mencione que varia por região/experiência)
-
-════════════════════════════════════════════════════════════
-🥈 2º LUGAR: (CARREIRA) - (pontos)/20
-════════════════════════════════════════════════════════════
-
-(mesma estrutura)
+📈 **MERCADO:**
+Extremamente aquecido para perfis que sabem fazer o "deploy" e não apenas a modelagem. Empresas buscam quem transforme dados em produto final.
 
 ════════════════════════════════════════════════════════════
-🥉 3º LUGAR: (CARREIRA) - (pontos)/20
+🥈 2º LUGAR: ENGENHEIRO DE DADOS PLENO - 18/20
 ════════════════════════════════════════════════════════════
 
-(mesma estrutura)
+💡 **POR QUE COMBINA COM VOCÊ:**
+É o caminho mais direto para o seu objetivo de "crescer na função atual". Com 30h de estudo, você pode acelerar muito sua efetivação e senioridade, focando em arquiteturas complexas (Data Lakehouses, Streaming) e governança.
+
+⚖️ **O QUE ESPERAR:**
+
+**VANTAGENS:**
+* Caminho mais rápido para promoção e aumento de renda no curto prazo.
+* Você já está inserido no contexto, reduzindo a curva de aprendizado inicial.
+
+**DESAFIOS:**
+* Pode se distanciar da parte de criação de modelos de IA se a empresa separar muito as áreas.
+* Trabalho de "bastidores" (infraestrutura) muitas vezes é invisível para o negócio.
+
+📈 **MERCADO:**
+Demanda constante e estrutural. Toda empresa que quer usar IA precisa antes de um Engenheiro de Dados sólido.
 
 ════════════════════════════════════════════════════════════
+🥉 3º LUGAR: GENERATIVE AI ENGINEER - 17/20
+════════════════════════════════════════════════════════════
 
-Qual dessas carreiras te chamou mais atenção?"
+💡 **POR QUE COMBINA COM VOCÊ:**
+Foca especificamente no seu desejo de **criar produtos**. Aqui você usará APIs de LLMs (como GPT, Claude), LangChain e Bancos Vetoriais para criar aplicações reais. É menos sobre treinar modelos do zero e mais sobre engenharia de software aplicada à IA.
 
-═══════════════════════════════════════════════════════════════
+⚖️ **O QUE ESPERAR:**
 
-## 🔄 FASE 3: HANDOFF PARA AGENT 2
+**VANTAGENS:**
+* Foco total na criação de produtos tangíveis e inovadores.
+* Área mais "hype" do momento, com muitas oportunidades em startups e Big Techs.
 
-QUANDO O USUÁRIO ESCOLHER UMA CARREIRA:
+**DESAFIOS:**
+* Tecnologias mudam semanalmente; exige atualização constante.
+* Menor estabilidade de ferramentas e padrões (tudo é muito novo).
 
-"Excelente escolha! Vou te passar para meu colega especialista em (CARREIRA ESCOLHIDA). Ele vai montar todo o plano de estudos personalizado para você!"
-
-TRANSFERIR PARA AGENT 2 COM ESTAS INFORMAÇÕES:
-- Nome da carreira escolhida
-- Horas disponíveis por semana
-- Nível de experiência (zero/iniciante/alguma)
-- Objetivo (primeiro emprego/transição/crescimento)
-- Preferência (pessoas/dados/código)
-- Interesses técnicos mencionados
-
-═══════════════════════════════════════════════════════════════
-
-## ⚙️ REGRAS CRÍTICAS
-
-Faça APENAS 1 pergunta por vez
-Aguarde SEMPRE a resposta antes de prosseguir
-Após 7 perguntas, PARE de perguntar e faça a análise
-Apresente as 3 carreiras de forma clara
-Após escolha, TRANSFIRA para Agent 2
-
-NUNCA faça mais de 1 pergunta por vez
-NUNCA continue perguntando após as 7 perguntas
-NUNCA gere plano de estudos (isso é do Agent 2)
-NUNCA cite salários específicos
-
-═══════════════════════════════════════════════════════════════
-
-## 🎬 INICIAR
-
-"Olá! 👋 
-
-Sou seu entrevistador de carreira em tecnologia. Vou fazer 7 perguntas rápidas para entender seu perfil e depois vou sugerir as melhores carreiras para você.
-
-Preparado? Então vamos lá!
-
-Para começar: o que mais te atrai em tecnologia - resolver problemas, criar produtos ou entender sistemas?"
+📈 **MERCADO:**
+Explosivo, mas ainda se consolidando. Muitas vagas surgindo especificamente para "LLM Apps".
