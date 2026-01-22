@@ -1,1 +1,64 @@
+# 🚀 Simulação de Entrevista Técnica: Engenharia de Dados (Microsoft)
 
+Este repositório documenta uma simulação de entrevista técnica conduzida por uma Inteligência Artificial (atuando como um Recrutador Sênior da Microsoft). O objetivo foi avaliar competências em **Engenharia de Dados**, **Big Data**, **Resolução de Problemas** e **Fit Cultural**.
+
+**📅 Data:** 22/01/2026
+**🎯 Vaga:** Engenheiro de Dados
+**🤖 Entrevistador:** Alex (AI Persona - Senior Tech Recruiter)
+
+---
+
+## 🛠️ Stack e Tecnologias Abordadas
+* **Processamento:** Apache Spark (PySpark), Otimização (Catalyst, Broadcast).
+* **Orquestração & Containerização:** Airflow, Docker.
+* **Armazenamento:** Data Lake, Parquet, Delta Lake, PostgreSQL.
+* **Conceitos:** ETL, Modelagem de Dados, Tuning de Performance, Qualidade de Dados.
+
+---
+
+## 📝 Transcrição da Entrevista
+
+### 1. Introdução e Background
+**Recrutador:** Você poderia fazer uma breve apresentação sobre você? Destaque os marcos que o levaram à Engenharia de Dados.
+
+> **Candidato:** Atualmente sou estagiário na área de Engenharia de Dados dentro do time de arquitetura de TI. Meu dia a dia envolve monitoramento de ferramentas e condução de projetos. Trabalho diariamente com Spark, Airbyte, Airflow, Docker, DBeaver, PostgreSQL, Python e Apache Hop. Minha motivação vem do gosto pela tecnologia, pela programação e pela identificação com a área de dados.
+
+### 2. Hard Skills: Transformação e Performance (Spark)
+**Recrutador:** Pensando em um cenário onde a performance é um problema, como você lida com Joins entre uma tabela gigante (Terabytes) e uma pequena? Que estratégia usaria no Spark?
+
+> **Candidato:** Se uma das tabelas for pequena (geralmente abaixo de 100MB ou que caiba na memória), a estratégia imediata seria forçar um **Broadcast Join**. Isso copia a tabela menor para todos os nós do cluster, permitindo que o Spark realize o cruzamento localmente sem precisar trafegar a tabela gigante pela rede, o que elimina o pesado processo de *Shuffle*.
+
+### 3. Hard Skills: Armazenamento e Formatos
+**Recrutador:** Por que, em um cenário de Big Data, damos preferência a formatos colunares (Parquet/Delta) em vez de CSV ou JSON?
+
+> **Candidato:** Como engenheiro de dados, a regra é clara: em um Data Lake produtivo, formatos de texto como CSV e JSON servem apenas para a zona de Landing ou trocas de arquivos pequenos. Para as camadas de processamento (Silver/Gold) e consumo, formatos colunares como **Parquet** ou **Delta** são obrigatórios por questões de eficiência física (compressão e leitura seletiva de colunas).
+
+### 4. Resolução de Problemas (Case: Silent Failure)
+**Recrutador:** Um pipeline no Airflow ficou "verde" (sucesso), mas o Diretor Financeiro relata dados duplicados. O que você faria para investigar a causa raiz?
+
+> **Candidato:** Essa é uma situação de "Silent Failure". Primeiro, preciso confirmar se a duplicidade é uma cópia exata (reprocessamento indevido) ou uma explosão de dados (join errado). Executaria uma query rápida na tabela de destino agrupando pela chave primária (ID) e pela data de ingestão para diagnosticar a origem do problema.
+
+### 5. Comportamental e Comunicação Técnica
+**Recrutador:** Conte sobre uma situação onde você teve uma discordância técnica com um colega. Qual foi o argumento técnico usado?
+
+> **Candidato:** Tivemos uma discussão sobre o uso de funções nativas do Spark versus UDFs em Python puro. Argumentei que o Spark roda na JVM e, ao usar funções nativas, aproveitamos o **Catalyst Optimizer**. O uso de Python puro exige serialização/deserialização de dados entre a JVM e o Python, gerando um custo alto de performance. Apresentando esses fatos, o time optou pela abordagem nativa.
+
+### 6. Fit Cultural e Aprendizado (Growth Mindset)
+**Recrutador:** Como você se mantém atualizado na área?
+
+> **Candidato:** Além da documentação oficial, participo de comunidades de Engenharia de Dados e leio blogs de engenharia de grandes empresas (*Big Techs*) como Netflix e Uber para entender como eles resolvem problemas de arquitetura e escala.
+
+---
+
+## 📊 Feedback do Recrutador (Simulado)
+
+O candidato demonstrou um nível de senioridade técnica acima da média para a posição atual (estagiário), com destaque para:
+
+1.  **Profundidade em Spark:** Entendimento claro de *internals* (Shuffle, Broadcast, JVM vs Python serialization).
+2.  **Investigação de Problemas:** Abordagem lógica para diferenciar erros de infraestrutura de erros lógicos (*Silent Failures*).
+3.  **Boas Práticas:** Visão correta sobre camadas de Data Lake e escolha de formatos de arquivo.
+
+**Resultado:** Recomendado para a próxima fase (Live Coding).
+
+---
+*Gerado via simulação de entrevista com IA.*
